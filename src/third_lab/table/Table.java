@@ -98,7 +98,7 @@ public class Table extends JDialog {
 
     private void settingsTable() {
         Object[] columnNames = new Object[]
-                {"Название фильма", "Жанр", "Режиссёр", "Год выпуска", "Оценка"};
+                {"Тип мебели", "Производитель", "Материалы", "Наличие", "Цена"};
 
         mainTable.setRowSorter(rowSorter);
         mainTable.setComponentPopupMenu(popupMenu);

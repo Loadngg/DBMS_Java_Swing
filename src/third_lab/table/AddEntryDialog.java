@@ -5,11 +5,11 @@ import javax.swing.table.DefaultTableModel;
 
 public class AddEntryDialog extends Table {
     private JPanel contentPane;
-    private JTextField textField1;
-    private JTextField textField2;
-    private JTextField textField3;
-    private JTextField textField4;
-    private JTextField textField5;
+    private JTextField typeField;
+    private JTextField authorField;
+    private JTextField materialsField;
+    private JTextField availableField;
+    private JTextField priceField;
     private JButton addRowBtn;
 
     public AddEntryDialog(DefaultTableModel model) {
@@ -25,11 +25,11 @@ public class AddEntryDialog extends Table {
 
     private String[] getFieldsText() {
         return new String[] {
-                textField1.getText(),
-                textField2.getText(),
-                textField3.getText(),
-                textField4.getText(),
-                textField5.getText(),
+                typeField.getText(),
+                authorField.getText(),
+                materialsField.getText(),
+                availableField.getText(),
+                priceField.getText(),
         };
     }
 }
